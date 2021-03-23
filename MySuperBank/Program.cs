@@ -17,6 +17,7 @@ namespace MySuperBank
             account.MakeDeposit(500, DateTime.Now, "wages");
             Console.WriteLine(account.Balance);
 
+            Console.WriteLine(account.GetAccountHistory());
   
             // Test that the inital balances must be positive
             try

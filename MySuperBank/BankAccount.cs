@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace MySuperBank
 {
@@ -66,6 +67,19 @@ namespace MySuperBank
             }
             var withdrawal = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawal);
+        }
+
+        public string GetAccountHistory()
+        {
+            var report = new StringBuilder();
+            // Header
+            report.AppendLine("Date\tAmount\tNote");
+            foreach (var item in allTransactions)
+            {
+                //Rows
+                report.AppendLine($"{item.Date.ToShortDateString()}\t\t{item.Amount}\t{item.Notes}");
+            }
+            return report.ToString();
         }
 
     }
