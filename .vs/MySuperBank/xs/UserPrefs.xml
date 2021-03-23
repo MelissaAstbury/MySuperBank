@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{5C92D0C0-FB64-4D97-B2EC-0615A5F97CA1}|Default">
-  <MonoDevelop.Ide.ItemProperties.MySuperBank FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MySuperBank/BankAccount.cs">
+  <MonoDevelop.Ide.ItemProperties.MySuperBank PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MySuperBank/Transaction.cs">
     <Files>
-      <File FileName="MySuperBank/Program.cs" Line="1" Column="1" />
-      <File FileName="MySuperBank/BankAccount.cs" Line="1" Column="1" />
+      <File FileName="MySuperBank/Program.cs" Line="10" Column="130" />
+      <File FileName="MySuperBank/BankAccount.cs" Line="22" Column="37" />
+      <File FileName="MySuperBank/Transaction.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MySuperBank" expanded="True">
             <Node name="MySuperBank" expanded="True">
-              <Node name="BankAccount.cs" selected="True" />
+              <Node name="Transaction.cs" selected="True" />
             </Node>
           </Node>
         </State>
