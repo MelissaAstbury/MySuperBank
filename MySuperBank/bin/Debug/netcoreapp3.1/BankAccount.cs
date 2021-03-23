@@ -62,7 +62,7 @@ namespace MySuperBank
             }
             if (Balance - amount < 0)
             {
-                throw new InvalidOperationException("Not sufficient funds for this withdrawl");
+                throw new InvalidOperationException("Not sufficient funds for this withdrawal");
             }
             var withdrawal = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawal);
